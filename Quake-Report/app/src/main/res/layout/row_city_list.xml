@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding">
+
+    <TextView
+        android:id="@+id/tvMagnitude"
+        android:layout_width="@dimen/tvMagnidute_layout_width"
+        android:layout_height="@dimen/tvMagnidute_layout_height"
+        android:background="@drawable/magnitude_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#FFF"
+        tools:text="7.8" />
+
+    <TextView
+        android:id="@+id/tvLocationOffset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvMagnitude"
+        android:paddingLeft="@dimen/padding_Left"
+        android:textAllCaps="true"
+        android:textAppearance="?android:textAppearanceMedium"
+        tools:text="30km S of" />
+
+    <TextView
+        android:id="@+id/tvPrimaryLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/tvMagnitude"
+        android:paddingLeft="@dimen/padding_Left"
+        android:textStyle="bold"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:fontFamily="Roboto"
+        tools:text="San Francisco, CA" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/tvLocationOffset"
+        android:gravity="right"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="Oct 2, 2016" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@id/tvPrimaryLocation"
+        android:gravity="right"
+        android:padding="@dimen/Padding_tvTime"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:text="3:00 PM" />
+</RelativeLayout>
+
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearlayout_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="@dimen/padding">
+
+    <TextView
+        android:id="@+id/tvMagnitude"
+        android:layout_width="@dimen/tvMagnidute_layout_width"
+        android:layout_height="@dimen/tvMagnidute_layout_height"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/magnitude_circle"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="7.8" />
+
+    <TextView
+        android:id="@+id/tvLocationOffset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_weight="1"
+        android:textAllCaps="true"
+        tools:text="30km S of" />
+
+    <TextView
+        android:id="@+id/tvPrimaryLocation"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/font_padding"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="San Francisco, CA" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/font_padding"
+        tools:text="Oct 2, 2016" />
+
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="3:00 PM" />
+
+</LinearLayout>-->
+
+    <!--<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/tvCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->

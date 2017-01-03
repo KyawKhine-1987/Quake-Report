@@ -1,0 +1,23 @@
+<resources>
+
+    <!--row_city_list.xml-->
+
+    <dimen name="padding">16dp</dimen>
+    <!--row_city_list.xml!!-->
+    <dimen name="list_item_height">80dp</dimen>
+
+    <!--This two attributes connected with tvMagnitude layout_height and layout_width in row_city_list.xml!!-->
+    <dimen name="tvMagnidute_layout_width">56dp</dimen>
+    <dimen name="tvMagnidute_layout_height">60dp</dimen>
+
+    <!--It has been used for tvLocationOffset & tvPrimaryLocation.-->
+    <dimen name="padding_Left">18dp</dimen>
+
+    <!--used for tvTime-->
+    <dimen name="Padding_tvTime">6dp</dimen>
+
+    <!--magnitude_circle.xml-->
+    <dimen name="magnitudeSize_width">36dp</dimen>
+    <dimen name="magnitudeCorners_radius">18dp</dimen>
+
+</resources>
